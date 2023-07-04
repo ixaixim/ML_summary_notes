@@ -26,7 +26,7 @@ Where $W$ is the set pof adjustable weights of the Neural Network.
 
 The goal is to find $W^*$ such that the error is minimum: 
 
-$$W^* = \argmin_W J(W)$$
+$$W^* = \underset{W}{\operatorname{argmin}} \ J(W)$$
 
 ## Gradient Descent: find the weights
 
