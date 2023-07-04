@@ -34,14 +34,14 @@ A hyperparameter is a parameter whose value is set before the training process b
 Scales component to reduce variation. Helps optimizers and is fundamental in some ML models (e.g. SVM and KNN, i.e. distance based models)
 
 ## Ridge regression
-$$\min_\beta \left | Xw - y \right |_2^2 + \alpha \left | \beta \right |_2^2$$
+$$\min_\beta \left | X\beta - y \right |_2^2 + \alpha \left | \beta \right |_2^2$$
 
 ## Lasso regression
-$$ \min_\beta  \left | Xw - y \right |_2^2 + \alpha \left | \beta \right |_1
+$$ \min_\beta  \left | X\beta - y \right |_2^2 + \alpha \left | \beta \right |_1
 $$
 
 ## Elastic net
-$$\min_\beta  \left | Xw - y \right |_2^2 + \gamma \left | \beta \right |_1 + \frac{1}{2} \alpha \left | \beta \right |_2^2
+$$\min_\beta  \left | X\beta - y \right |_2^2 + \gamma \left | \beta \right |_1 + \frac{1}{2} \alpha \left | \beta \right |_2^2
 $$
 
 ## Kernel trick
