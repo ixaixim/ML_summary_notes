@@ -25,7 +25,8 @@ $$J(W) = \frac{1}{n} \sum_{i=1}^{n} L(\hat{y}; y_i)$$
 Where $W$ is the set pof adjustable weights of the Neural Network. 
 
 The goal is to find $W^*$ such that the error is minimum: 
-$$W^* = \operatorname*{argmin}_W J(W)$$ 
+
+$$W^* = \argmin_W J(W)$$
 
 ## Gradient Descent: find the weights
 
@@ -48,7 +49,8 @@ $$W_{n+1} = W_n - \lambda \cdot \nabla_W \mathcal{L}(\hat{y}_i, y_i)$$
 
 ## Backpropagation: how to compute the gradients
 
-The output of the network $\hat{y}$ is a composition of functions: 
+The output of the network $\hat{y}$ is a composition of functions:
+
 $$ \hat{y} = a^L(W^L(a^{L−1}(W^{L−1}
 (\dots W^1
 (x)))))$$
