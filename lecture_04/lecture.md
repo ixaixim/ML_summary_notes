@@ -12,9 +12,20 @@ A neural network is a computational graph, i.e. a collection of nodes and edges 
 ## Activation Functions
 Introduce nonlinearity in the output. 
 - Sigmoid
+
+![Alt Text](figures/act_sigmoid.png "")
+
 - Tanh
+
+![Alt Text](figures/act_tanh.png "")
+
 - ReLU
+
+![Alt Text](figures/act_relu.png "")
+
 - Softmax 
+
+![Alt Text](figures/act_softmax.png "")
 
 ## Loss function: measures the error of the network
 1. The output of the network $\hat{y}$ is compared to the true value $y$, by using a **loss function**:
