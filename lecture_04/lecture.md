@@ -21,11 +21,11 @@ Introduce nonlinearity in the output.
 
 - ReLU
 
-![Alt Text](figures/act_relu.png "")
+<img src="figures/act_relu.png" alt="Alt Text" style="width:90%;height:90%;">
 
 - Softmax 
 
-![Alt Text](figures/act_softmax.png "")
+<img src="figures/act_softmax.png" alt="Alt Text" style="width:90%;height:90%;">
 
 ## Loss function: measures the error of the network
 1. The output of the network $\hat{y}$ is compared to the true value $y$, by using a **loss function**:
