@@ -3,7 +3,7 @@
 This repository contains the summary notes for the "Python for Engineering Data Analysis" course held during the summer semester of 2023 at the Technical University of Munich, Department of Electrical and Computer Engineering, Professorship Simulation of Nanosystems for Energy Conversion.
 
 ## Lectures
-
+### Lecture 01: Introduction to the course
 ### Lecture 02: Regression Techniques
 This lecture covers the following topics:
 - Lasso Regression
